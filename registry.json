@@ -1,0 +1,75 @@
+{
+  "algorithms": {
+    "sorting": {
+      "bubble_sort": {
+        "name": "Bubble Sort",
+        "description": "A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.",
+        "timeComplexity": "O(n²)",
+        "spaceComplexity": "O(1)",
+        "languages": {
+          "python": "src/algorithms/python/sorting/bubble_sort.py",
+          "javascript": "src/algorithms/javascript/sorting/bubble_sort.js"
+        },
+        "defaultInput": [64, 34, 25, 12, 22, 11, 90],
+        "category": "sorting"
+      },
+      "selection_sort": {
+        "name": "Selection Sort",
+        "description": "A sorting algorithm that divides the input list into sorted and unsorted regions, repeatedly selecting the smallest element from the unsorted region.",
+        "timeComplexity": "O(n²)",
+        "spaceComplexity": "O(1)",
+        "languages": {
+          "javascript": "src/algorithms/javascript/sorting/selection_sort.js"
+        },
+        "defaultInput": [64, 34, 25, 12, 22, 11, 90],
+        "category": "sorting"
+      }
+    },
+    "searching": {},
+    "recursion": {},
+    "graphs": {}
+  },
+  "categories": [
+    {
+      "id": "sorting",
+      "name": "Sorting Algorithms",
+      "description": "Algorithms that arrange elements in a particular order"
+    },
+    {
+      "id": "searching",
+      "name": "Searching Algorithms", 
+      "description": "Algorithms that find specific elements in data structures"
+    },
+    {
+      "id": "recursion",
+      "name": "Recursive Algorithms",
+      "description": "Algorithms that solve problems by breaking them into smaller subproblems"
+    },
+    {
+      "id": "graphs",
+      "name": "Graph Algorithms",
+      "description": "Algorithms that operate on graph data structures"
+    }
+  ],
+  "languages": [
+    {
+      "id": "python",
+      "name": "Python",
+      "extension": ".py",
+      "syntax": "python"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "extension": ".js",
+      "syntax": "javascript"
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "extension": ".cpp",
+      "syntax": "cpp"
+    }
+  ]
+}
+

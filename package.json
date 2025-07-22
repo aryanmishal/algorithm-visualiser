@@ -1,0 +1,28 @@
+{
+  "name": "algorithm-visualiser",
+  "version": "1.0.0",
+  "description": "---",
+  "scripts": {
+    "start": "parcel index.html",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EinsteinSousa/algorithm-visualiser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EinsteinSousa/algorithm-visualiser/issues"
+  },
+  "homepage": "https://github.com/EinsteinSousa/algorithm-visualiser#readme",
+  "dependencies": {
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
